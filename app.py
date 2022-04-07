@@ -9,7 +9,7 @@ app = Flask(__name__)
 DB_HOST = "localhost"
 DB_NAME = "sampledb"
 DB_USER = "postgres"
-DB_PASS = "sai"
+DB_PASS = " "
  
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
  
